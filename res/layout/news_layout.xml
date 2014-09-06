@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="110dp"
+    android:layout_height="110dp"
+    android:layout_margin="2dp" >
+
+    <ImageView
+        android:id="@+id/news_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/news_text"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="bottom"
+        android:background="@color/black_half_transparacy"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textColor="@color/white"
+        android:textSize="10sp" />
+
+</FrameLayout>
